@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033DA98F1E3F857500371D05 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033DA98E1E3F857500371D05 /* HomeViewController.swift */; };
+		033DA9911E3F923C00371D05 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033DA9901E3F923C00371D05 /* Cache.swift */; };
+		036993A51E48AEC7001CB86F /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036993A41E48AEC7001CB86F /* EmployeeDetailViewController.swift */; };
+		036993A71E48CE34001CB86F /* NewEmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036993A61E48CE34001CB86F /* NewEmployeeDetailViewController.swift */; };
+		03797EDA1E5B39C300B53512 /* NewProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03797ED91E5B39C300B53512 /* NewProjectViewController.swift */; };
+		03797EDC1E5B413200B53512 /* NewDepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03797EDB1E5B413200B53512 /* NewDepartmentViewController.swift */; };
+		03ECB53D1E51EEE300156052 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECB53C1E51EEE300156052 /* Department.swift */; };
+		03ECB53F1E51F36A00156052 /* DepartmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECB53E1E51F36A00156052 /* DepartmentsViewController.swift */; };
+		03ECB5411E51F3E300156052 /* DepartmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECB5401E51F3E300156052 /* DepartmentCell.swift */; };
+		03ECB5431E51F90800156052 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECB5421E51F90800156052 /* DateViewController.swift */; };
+		03ECB5461E52006600156052 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECB5451E52006600156052 /* Project.swift */; };
+		03ECB5481E52007E00156052 /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECB5471E52007E00156052 /* ProjectCell.swift */; };
+		03ECB54A1E5200A500156052 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ECB5491E5200A500156052 /* ProjectsViewController.swift */; };
 		A2117DF31E36447F00234CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2117DF21E36447F00234CC8 /* AppDelegate.swift */; };
-		A2117DF51E36447F00234CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2117DF41E36447F00234CC8 /* ViewController.swift */; };
 		A2117DF81E36447F00234CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2117DF61E36447F00234CC8 /* Main.storyboard */; };
 		A2117DFA1E36447F00234CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2117DF91E36447F00234CC8 /* Assets.xcassets */; };
 		A2117DFD1E36447F00234CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2117DFB1E36447F00234CC8 /* LaunchScreen.storyboard */; };
+		A2117E051E3644B500234CC8 /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2117E041E3644B500234CC8 /* EmployeesViewController.swift */; };
+		A2117E071E3645B300234CC8 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2117E061E3645B300234CC8 /* Employee.swift */; };
+		A2117E091E364B3E00234CC8 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2117E081E364B3E00234CC8 /* Api.swift */; };
+		A2117E0B1E3658CA00234CC8 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2117E0A1E3658CA00234CC8 /* EmployeeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033DA98E1E3F857500371D05 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		033DA9901E3F923C00371D05 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		036993A41E48AEC7001CB86F /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewController.swift; sourceTree = "<group>"; };
+		036993A61E48CE34001CB86F /* NewEmployeeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEmployeeDetailViewController.swift; sourceTree = "<group>"; };
+		03797ED91E5B39C300B53512 /* NewProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProjectViewController.swift; sourceTree = "<group>"; };
+		03797EDB1E5B413200B53512 /* NewDepartmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDepartmentViewController.swift; sourceTree = "<group>"; };
+		03ECB53C1E51EEE300156052 /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		03ECB53E1E51F36A00156052 /* DepartmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentsViewController.swift; sourceTree = "<group>"; };
+		03ECB5401E51F3E300156052 /* DepartmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentCell.swift; sourceTree = "<group>"; };
+		03ECB5421E51F90800156052 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		03ECB5451E52006600156052 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		03ECB5471E52007E00156052 /* ProjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
+		03ECB5491E5200A500156052 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		A2117DEF1E36447F00234CC8 /* Comp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2117DF21E36447F00234CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2117DF41E36447F00234CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2117DF71E36447F00234CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2117DF91E36447F00234CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2117DFC1E36447F00234CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2117DFE1E36447F00234CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2117E041E3644B500234CC8 /* EmployeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesViewController.swift; sourceTree = "<group>"; };
+		A2117E061E3645B300234CC8 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		A2117E081E364B3E00234CC8 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		A2117E0A1E3658CA00234CC8 /* EmployeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033DA98D1E3F782E00371D05 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				A2117E041E3644B500234CC8 /* EmployeesViewController.swift */,
+				036993A41E48AEC7001CB86F /* EmployeeDetailViewController.swift */,
+				036993A61E48CE34001CB86F /* NewEmployeeDetailViewController.swift */,
+				A2117E0A1E3658CA00234CC8 /* EmployeeCell.swift */,
+				A2117E061E3645B300234CC8 /* Employee.swift */,
+			);
+			name = Employee;
+			sourceTree = "<group>";
+		};
+		03ECB53B1E51EEA800156052 /* Department */ = {
+			isa = PBXGroup;
+			children = (
+				03ECB53E1E51F36A00156052 /* DepartmentsViewController.swift */,
+				03ECB5401E51F3E300156052 /* DepartmentCell.swift */,
+				03ECB53C1E51EEE300156052 /* Department.swift */,
+				03797EDB1E5B413200B53512 /* NewDepartmentViewController.swift */,
+			);
+			name = Department;
+			sourceTree = "<group>";
+		};
+		03ECB5441E52004600156052 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				03ECB5491E5200A500156052 /* ProjectsViewController.swift */,
+				03ECB5471E52007E00156052 /* ProjectCell.swift */,
+				03ECB5451E52006600156052 /* Project.swift */,
+				03797ED91E5B39C300B53512 /* NewProjectViewController.swift */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
 		A2117DE61E36447F00234CC8 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +120,15 @@
 		A2117DF11E36447F00234CC8 /* Comp */ = {
 			isa = PBXGroup;
 			children = (
-				A2117DF21E36447F00234CC8 /* AppDelegate.swift */,
-				A2117DF41E36447F00234CC8 /* ViewController.swift */,
 				A2117DF61E36447F00234CC8 /* Main.storyboard */,
+				A2117E081E364B3E00234CC8 /* Api.swift */,
+				033DA98E1E3F857500371D05 /* HomeViewController.swift */,
+				033DA9901E3F923C00371D05 /* Cache.swift */,
+				03ECB5421E51F90800156052 /* DateViewController.swift */,
+				033DA98D1E3F782E00371D05 /* Employee */,
+				03ECB53B1E51EEA800156052 /* Department */,
+				03ECB5441E52004600156052 /* Project */,
+				A2117DF21E36447F00234CC8 /* AppDelegate.swift */,
 				A2117DF91E36447F00234CC8 /* Assets.xcassets */,
 				A2117DFB1E36447F00234CC8 /* LaunchScreen.storyboard */,
 				A2117DFE1E36447F00234CC8 /* Info.plist */,
@@ -137,8 +209,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2117DF51E36447F00234CC8 /* ViewController.swift in Sources */,
+				03ECB54A1E5200A500156052 /* ProjectsViewController.swift in Sources */,
+				03797EDC1E5B413200B53512 /* NewDepartmentViewController.swift in Sources */,
+				036993A71E48CE34001CB86F /* NewEmployeeDetailViewController.swift in Sources */,
+				03797EDA1E5B39C300B53512 /* NewProjectViewController.swift in Sources */,
+				033DA9911E3F923C00371D05 /* Cache.swift in Sources */,
+				A2117E051E3644B500234CC8 /* EmployeesViewController.swift in Sources */,
+				03ECB53F1E51F36A00156052 /* DepartmentsViewController.swift in Sources */,
+				A2117E071E3645B300234CC8 /* Employee.swift in Sources */,
+				03ECB5461E52006600156052 /* Project.swift in Sources */,
+				03ECB5431E51F90800156052 /* DateViewController.swift in Sources */,
+				036993A51E48AEC7001CB86F /* EmployeeDetailViewController.swift in Sources */,
+				A2117E091E364B3E00234CC8 /* Api.swift in Sources */,
+				03ECB5411E51F3E300156052 /* DepartmentCell.swift in Sources */,
 				A2117DF31E36447F00234CC8 /* AppDelegate.swift in Sources */,
+				03ECB53D1E51EEE300156052 /* Department.swift in Sources */,
+				A2117E0B1E3658CA00234CC8 /* EmployeeCell.swift in Sources */,
+				03ECB5481E52007E00156052 /* ProjectCell.swift in Sources */,
+				033DA98F1E3F857500371D05 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +388,7 @@
 				A2117E031E36447F00234CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
